@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc618ae7.css",
-    "main.js": "/static/js/main.16f341e8.js",
+    "main.css": "/static/css/main.5e949f59.css",
+    "main.js": "/static/js/main.a3942839.js",
     "static/media/gojo.png": "/static/media/gojo.a0f491e7095df2cbf16a.png",
     "static/media/collegebuddy.png": "/static/media/collegebuddy.f6a5f630a5758cd888a4.png",
     "static/media/drawsim.jpg": "/static/media/drawsim.f62cadf53978e1a5a547.jpg",
@@ -24,11 +24,11 @@
     "static/media/BMS.png": "/static/media/BMS.1cdd14b2f73194e463f4.png",
     "static/media/drexel_cci_research_logo.jpg": "/static/media/drexel_cci_research_logo.9a96bdd772171f8c75ad.jpg",
     "index.html": "/index.html",
-    "main.cc618ae7.css.map": "/static/css/main.cc618ae7.css.map",
-    "main.16f341e8.js.map": "/static/js/main.16f341e8.js.map"
+    "main.5e949f59.css.map": "/static/css/main.5e949f59.css.map",
+    "main.a3942839.js.map": "/static/js/main.a3942839.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc618ae7.css",
-    "static/js/main.16f341e8.js"
+    "static/css/main.5e949f59.css",
+    "static/js/main.a3942839.js"
   ]
 }
