@@ -80,28 +80,40 @@ const Resume = () => {
       {/* Publications Section */}
       <section className="resume-section">
         <h2>publications <span aria-hidden>📑</span></h2>
-        <a
-          href="https://arxiv.org/abs/2602.01578"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="publication-card-link"
-        >
-          <div className="item clickable-item publication-item">
-            <img src={drawsimImage} alt="DrawSim-PD overview" className="publication-image" loading="lazy" />
-            <div className="content">
-              <h3 className="publication-title">
-                drawsim-pd: simulating student science drawings to support NGSS-aligned teacher
-                diagnostic reasoning
-              </h3>
-              <p className="subtitle">
-                Arijit Chakma, Peng He, Tingting Li, Tiffany D. Do, and Feng Liu.
-              </p>
-              <div className="publication-link">
-                <span>preprint</span>
-              </div>
+        <div className="item publication-item">
+          <img src={drawsimImage} alt="DrawSim-PD overview" className="publication-image" loading="lazy" />
+          <div className="content">
+            <h3 className="publication-title">
+              drawsim-pd: simulating student science drawings to support NGSS-aligned teacher
+              diagnostic reasoning
+            </h3>
+            <p className="subtitle">
+              Arijit Chakma, Peng He, Tingting Li, Tiffany D. Do, and Feng Liu.
+            </p>
+            <div className="publication-venue">
+              <span className="venue-badge">AIED 2026</span>
+              <span className="venue-details">In Proceedings of the 27th International Conference on Artificial Intelligence in Education (AIED), 2026. (to appear; acceptance rate: 16%)</span>
+            </div>
+            <div className="publication-links">
+              <a
+                href="https://arxiv.org/abs/2602.01578"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pub-link-btn"
+              >
+                <span aria-hidden>📄</span> arXiv
+              </a>
+              <a
+                href="https://vilab-group.com/project/drawsim-pd/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pub-link-btn"
+              >
+                <span aria-hidden>🌐</span> project page
+              </a>
             </div>
           </div>
-        </a>
+        </div>
       </section>
 
       {/* Experience Section */}
@@ -219,6 +231,14 @@ const Resume = () => {
             <p className="subtitle">
               1 out of 13 international students who were awarded this prestigious scholarship in
               2022
+            </p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="content">
+            <h3>eisenhower scholarship (declined)</h3>
+            <p className="subtitle">
+              awarded this scholarship in 2022. but declined it to attend Drexel.
             </p>
           </div>
         </div>
