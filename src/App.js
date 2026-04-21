@@ -1,8 +1,8 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home, Hobbies } from './pages';
+import { Home, Hobbies, ResumePage, BlogsPage, ProjectsPage } from './pages';
 import { Footer, Hero } from './components';
-import { ThemeProvider } from './contexts/ThemeContext';
+import Navbar from './components/Navbar';
 import './styles/App.css';
 
 const MainPage = () => (
@@ -12,27 +12,31 @@ const MainPage = () => (
   </main>
 );
 
-const HobbiesPage = () => (
+const PageLayout = ({ children }) => (
   <main className="main-content">
-    <Hobbies />
+    <div style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
+      <Navbar />
+    </div>
+    {children}
   </main>
 );
 
 const App = () => {
   return (
-    <ThemeProvider>
-      <Router>
-        <div className="app app-ethereal">
-          <div className="page-shell">
-            <Routes>
-              <Route path="/" element={<MainPage />} />
-              <Route path="/hobbies" element={<HobbiesPage />} />
-            </Routes>
-            <Footer />
-          </div>
+    <Router>
+      <div className="app app-ethereal">
+        <div className="page-shell">
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/hobbies" element={<PageLayout><Hobbies /></PageLayout>} />
+            <Route path="/resume" element={<PageLayout><ResumePage /></PageLayout>} />
+            <Route path="/projects" element={<PageLayout><ProjectsPage /></PageLayout>} />
+            <Route path="/blogs" element={<PageLayout><BlogsPage /></PageLayout>} />
+          </Routes>
+          <Footer />
         </div>
-      </Router>
-    </ThemeProvider>
+      </div>
+    </Router>
   );
 };
 

@@ -143,14 +143,6 @@ const Projects = () => {
 
   return (
     <div className="projects">
-      <div className="projects-header">
-        <h1>projects <span aria-hidden>🚀</span></h1>
-        <p className="projects-subtitle">
-          {showAll
-            ? 'all projects'
-            : 'selected projects'}
-        </p>
-      </div>
       <div className="projects-grid">
         {displayed.map((project, index) => (
           <a

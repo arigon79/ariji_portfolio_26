@@ -12,11 +12,7 @@ import drawsimImage from '../assets/drawsim.jpg';
 const Resume = () => {
   return (
     <div className="resume">
-      <div className="resume-header">
-        <div>
-          <h1>resume <span aria-hidden>📄</span></h1>
-          <p className="resume-subtitle">education, experience, publications & awards</p>
-        </div>
+      <div className="resume-header" style={{ justifyContent: 'flex-end', marginBottom: '0' }}>
         <a
           href={resumePdf}
           target="_blank"
@@ -41,47 +37,10 @@ const Resume = () => {
         </div>
       </section>
 
-      {/* Favourite Courses Section */}
-      <section className="resume-section">
-        <h2>some favourite courses <span aria-hidden>📚</span></h2>
-        <p className="resume-section-note">* indicates grad level. listed in no particular order.</p>
-        <div className="item">
-          <div className="content">
-            <h3>computational photography (CS435)</h3>
-            <p className="subtitle">Drexel University</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
-            <h3>deep learning (CS615)*</h3>
-            <p className="subtitle">Drexel University</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
-            <h3>augmented programming (CST480)</h3>
-            <p className="subtitle">Drexel University</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
-            <h3>machine learning (CS383)</h3>
-            <p className="subtitle">Drexel University</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
-            <h3>optimization theory (MATH305)</h3>
-            <p className="subtitle">Drexel University</p>
-          </div>
-        </div>
-      </section>
-
       {/* Publications Section */}
       <section className="resume-section">
         <h2>publications <span aria-hidden>📑</span></h2>
         <div className="item publication-item">
-          <img src={drawsimImage} alt="DrawSim-PD overview" className="publication-image" loading="lazy" />
           <div className="content">
             <h3 className="publication-title">
               drawsim-pd: simulating student science drawings to support NGSS-aligned teacher
@@ -92,7 +51,7 @@ const Resume = () => {
             </p>
             <div className="publication-venue">
               <span className="venue-badge">AIED 2026</span>
-              <span className="venue-details">In Proceedings of the 27th International Conference on Artificial Intelligence in Education (AIED), 2026. (to appear; acceptance rate: 16%)</span>
+              <span className="venue-details">In Proceedings of the 27th International Conference on Artificial Intelligence in Education (AIED), 2026. (acceptance rate: 16%)</span>
             </div>
             <div className="publication-links">
               <a
@@ -113,6 +72,7 @@ const Resume = () => {
               </a>
             </div>
           </div>
+          <img src={drawsimImage} alt="DrawSim-PD overview" className="publication-image" loading="lazy" />
         </div>
       </section>
 
@@ -171,6 +131,42 @@ const Resume = () => {
             </p>
           </div>
           <img src={developForGoodLogo} alt="Develop For Good" className="company-logo-small" loading="lazy" />
+        </div>
+      </section>
+
+      {/* Favourite Courses Section */}
+      <section className="resume-section">
+        <h2>some favourite courses <span aria-hidden>📚</span></h2>
+        <p className="resume-section-note">* indicates grad level. listed in no particular order.</p>
+        <div className="item">
+          <div className="content">
+            <h3>computational photography (CS435)</h3>
+            <p className="subtitle">Drexel University</p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="content">
+            <h3>deep learning (CS615)*</h3>
+            <p className="subtitle">Drexel University</p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="content">
+            <h3>augmented programming (CST480)</h3>
+            <p className="subtitle">Drexel University</p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="content">
+            <h3>machine learning (CS383)</h3>
+            <p className="subtitle">Drexel University</p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="content">
+            <h3>optimization theory (MATH305)</h3>
+            <p className="subtitle">Drexel University</p>
+          </div>
         </div>
       </section>
 

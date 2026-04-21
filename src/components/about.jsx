@@ -8,40 +8,47 @@ const About = () => {
         <div className="intro-grid">
           <div className="bio">
             <p>
-              I'm a junior computer science student at Drexel University. my research focuses on{' '}
-              <span className="dim-emoji" aria-label="2D">2️⃣</span>D /{' '}
-              <span className="dim-emoji" aria-label="3D">3️⃣</span>D /{' '}
-              <span className="dim-emoji" aria-label="4D">4️⃣</span>D generation, applied LLMs, and
-              human-computer interaction (HCI), working under professor{' '}
-              <a href="https://liufeng2915.github.io/" target="_blank" rel="noopener noreferrer" className="email-link">
-                Feng Liu
-              </a>.
+              I am a junior computer science student at Drexel University focusing on ML and Vision. I am currently working at{' '}
+              <a href="https://vilab-group.com/" target="_blank" rel="noopener noreferrer" className="email-link">vilab</a>{' '}
+              under <a href="https://liufeng2915.github.io/" target="_blank" rel="noopener noreferrer" className="email-link">dr. feng liu</a>.
             </p>
             <p>
-              I'm also a long-time developer with experience in full-stack and AI-powered applications,
-              plus IoT and AR/VR.
+              I also do web dev and currently building my own SAAS startup (stealth).
             </p>
             <p>
-              i previously interned at Bristol Myers Squibb and will be interning at KBRA as a software
-              engineer in spring/summer 2026.
+              i love hackathons and have attended around 20 at Stanford, MIT, Princeton, UPenn, Columbia, Hopkins, and more.
             </p>
             <p>
-              i love hackathons and have attended around 15 at Stanford, MIT, UPenn, Columbia, Hopkins,
-              and more.
+              contact me at: <a href="mailto:ac4393@drexel.edu" className="email-link">ac4393@drexel.edu</a> or discord <strong>#arigon3406</strong>
             </p>
-            <p>
-              outside of academics, i hit the gym daily and enjoy reading ancient european history and
-              philosophy. i recently got into travelling and hiking — hoping to visit at least 3 countries
-              this year.
-            </p>
-            <p className="email-paragraph">feel free to reach out.</p>
-            <div className="about-links">
-              <a href="https://github.com/arijitchakma79/" target="_blank" rel="noopener noreferrer"><span className="about-link-emoji" aria-hidden>🐙</span> github</a>
-              <a href="https://www.linkedin.com/in/arijitchakma/" target="_blank" rel="noopener noreferrer"><span className="about-link-emoji" aria-hidden>💼</span> linkedin</a>
-              <a href="https://scholar.google.com/citations?hl=en&authuser=7&user=ue5rhwoAAAAJ" target="_blank" rel="noopener noreferrer"><span className="about-link-emoji" aria-hidden>🎓</span> google scholar</a>
-              <a href="https://www.instagram.com/arigonn79/" target="_blank" rel="noopener noreferrer"><span className="about-link-emoji" aria-hidden>📷</span> instagram</a>
-              <a href="https://x.com/arigon79" target="_blank" rel="noopener noreferrer"><span className="about-link-emoji" aria-hidden>𝕏</span> x</a>
-              <a href="mailto:ac4393@drexel.edu"><span className="about-link-emoji" aria-hidden>📧</span> email</a>
+
+            <div className="links-list-section" style={{ marginTop: '2rem' }}>
+              <h3 style={{ fontSize: '1rem', fontWeight: '600', marginBottom: '0.5rem', color: '#111' }}>links</h3>
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+                <li><a href="https://scholar.google.com/citations?hl=en&authuser=7&user=ue5rhwoAAAAJ" target="_blank" rel="noopener noreferrer" className="email-link">google scholar</a></li>
+                <li><a href="https://github.com/arijitchakma79/" target="_blank" rel="noopener noreferrer" className="email-link">github</a></li>
+                <li><a href="https://www.linkedin.com/in/arijitchakma/" target="_blank" rel="noopener noreferrer" className="email-link">linkedin</a></li>
+                <li><a href="https://x.com/arigon79" target="_blank" rel="noopener noreferrer" className="email-link">x</a></li>
+              </ul>
+            </div>
+
+            <div style={{ marginTop: '2rem' }}>
+              <h3 style={{ fontSize: '1rem', fontWeight: '600', marginBottom: '0.5rem', color: '#111' }}>research interest</h3>
+              <ul style={{ paddingLeft: '1.25rem', margin: 0, display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                <li>2D / 3D / 4D generation</li>
+                <li>applied LLMs</li>
+                <li>human-computer interaction (HCI)</li>
+              </ul>
+            </div>
+
+            <div style={{ marginTop: '2rem' }}>
+              <h3 style={{ fontSize: '1rem', fontWeight: '600', marginBottom: '0.5rem', color: '#111' }}>hobbies</h3>
+              <ul style={{ paddingLeft: '1.25rem', margin: 0, display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                <li>gym</li>
+                <li>read history</li>
+                <li>doomscrolling and brain rotting</li>
+                <li>walking around hopelessly in the street</li>
+              </ul>
             </div>
           </div>
         </div>

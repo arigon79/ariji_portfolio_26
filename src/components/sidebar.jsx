@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { Home, FileText, Boxes, Palette, Sun, Moon, Instagram, Linkedin, Github, Twitter, Menu, X, GraduationCap } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
-import profileImg from '../assets/profile_pic.jpg';
+import profileImg from '../assets/IMGo_15012.jpg';
 import '../styles/sidebar.css';
 
 const Sidebar = () => {

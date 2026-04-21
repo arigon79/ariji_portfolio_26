@@ -14,12 +14,6 @@ const posts = [
 const Blogs = () => {
   return (
     <div className="blogs">
-      <div className="blogs-header">
-        <h1>
-          writing <span aria-hidden>✏️</span>
-        </h1>
-        <p className="blogs-subtitle">a few posts from medium</p>
-      </div>
       <div className="blogs-grid">
         {posts.map((post, index) => (
           <a
