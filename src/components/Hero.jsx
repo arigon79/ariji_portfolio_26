@@ -6,7 +6,7 @@ import '../styles/hero.css';
 
 const Hero = () => {
   const typewriterPhrases = [
-    'junior at Drexel University 🐉',
+    'senior at drexel 🐉',
     'researcher 🔬',
     'software engineer 💻',
   ];

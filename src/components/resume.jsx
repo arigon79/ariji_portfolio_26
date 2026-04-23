@@ -134,110 +134,77 @@ const Resume = () => {
         </div>
       </section>
 
-      {/* Favourite Courses Section */}
       <section className="resume-section">
         <h2>some favourite courses <span aria-hidden>📚</span></h2>
-        <p className="resume-section-note">* indicates grad level. listed in no particular order.</p>
-        <div className="item">
-          <div className="content">
+        <ul className="resume-list">
+          <li>
             <h3>computational photography (CS435)</h3>
             <p className="subtitle">Drexel University</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>deep learning (CS615)*</h3>
             <p className="subtitle">Drexel University</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>augmented programming (CST480)</h3>
             <p className="subtitle">Drexel University</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>machine learning (CS383)</h3>
             <p className="subtitle">Drexel University</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>optimization theory (MATH305)</h3>
             <p className="subtitle">Drexel University</p>
-          </div>
-        </div>
+          </li>
+        </ul>
+        <p className="resume-section-note">* indicates grad level. listed in no particular order.</p>
       </section>
 
-      {/* Awards Section */}
       <section className="resume-section">
         <h2>awards & honors <span aria-hidden>🏆</span></h2>
-        <div className="item">
-          <div className="content">
+        <ul className="resume-list">
+          <li>
             <h3>best social impact hack</h3>
             <p className="subtitle">dragonhacks 2025 @ (Drexel University)</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>beginner quantum computing track - 2nd place</h3>
             <p className="subtitle">bitcamps 2025 @ (University of Maryland, College Park)</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>best overall first</h3>
             <p className="subtitle">pennapps 2024 @ (University of Pennsylvania)</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>general prize overall second</h3>
             <p className="subtitle">hophacks 2024 @ (John Hopkins University)</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>bloomberg philanthropic hack - 3rd prize</h3>
             <p className="subtitle">hophacks 2024 @ (John Hopkins University)</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>best beginner project</h3>
             <p className="subtitle">devfest 2025 @ (Columbia University)</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>best interactive and multimedia track winner</h3>
             <p className="subtitle">dragonhacks 2024 @ (Drexel University)</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>deans list</h3>
             <p className="subtitle">awarded for GPA over 3.70 (all quarters)</p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+          </li>
+          <li>
             <h3>drexel global scholarship</h3>
-            <p className="subtitle">
-              1 out of 13 international students who were awarded this prestigious scholarship in
-              2022
-            </p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="content">
+            <p className="subtitle">1 out of 13 international students who were awarded this scholarship</p>
+          </li>
+          <li>
             <h3>eisenhower scholarship (declined)</h3>
-            <p className="subtitle">
-              awarded this scholarship in 2022. but declined it to attend Drexel.
-            </p>
-          </div>
-        </div>
+            <p className="subtitle">awarded this scholarship in 2022. but declined it to attend Drexel.</p>
+          </li>
+        </ul>
       </section>
     </div>
   );
