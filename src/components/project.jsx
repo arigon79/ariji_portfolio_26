@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import { Globe } from 'lucide-react';
 import '../styles/projects.css';
-import deneyes from '../assets/deneyes.jpg';
-import scout from '../assets/scout.jpg';
-import skyhigh from '../assets/skyhigh.jpg';
-import pigeonpost from '../assets/pigeonpost.png';
-import visualed from '../assets/visualed.jpg';
-import soundshield from '../assets/soundshield.jpg';
-import thrifthub from '../assets/thrifthub.jpg';
-import ventureahead from '../assets/ventureahead.png';
-import woundwatch from '../assets/woundWatch.png';
-import collegebuddy from '../assets/collegebuddy.png';
-import carbon0 from '../assets/carbon0.jpg';
-import tickermaster from '../assets/tickermaster.jpg';
-import phillynet from '../assets/phillynet.png';
+import deneyes from '../assets/projects/deneyes.jpg';
+import scout from '../assets/projects/scout.jpg';
+import skyhigh from '../assets/projects/skyhigh.jpg';
+import pigeonpost from '../assets/projects/pigeonpost.png';
+import visualed from '../assets/projects/visualed.jpg';
+import soundshield from '../assets/projects/soundshield.jpg';
+import thrifthub from '../assets/projects/thrifthub.jpg';
+import ventureahead from '../assets/projects/ventureahead.png';
+import woundwatch from '../assets/projects/woundWatch.png';
+import collegebuddy from '../assets/projects/collegebuddy.png';
+import carbon0 from '../assets/projects/carbon0.jpg';
+import tickermaster from '../assets/projects/tickermaster.jpg';
+import phillynet from '../assets/projects/phillynet.png';
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);

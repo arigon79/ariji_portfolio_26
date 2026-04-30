@@ -1,13 +1,14 @@
 import React from 'react';
 import '../styles/resume.css';
-import resumePdf from '../assets/resume.pdf';
-import logo from '../assets/drexel_logo.png';
-import drexelCciResearchLogo from '../assets/drexel_cci_research_logo.jpg';
-import bmsLogo from '../assets/BMS.png';
-import developForGoodLogo from '../assets/develop_for_good_logo.jpg';
-import drexelCCILogo from '../assets/drexel_cci.jpg';
-import kbraLogo from '../assets/kbra.jpg';
-import drawsimImage from '../assets/drawsim.jpg';
+import resumePdf from '../assets/resume/resume.pdf';
+import logo from '../assets/logos/drexel_logo.png';
+import drexelCciResearchLogo from '../assets/logos/drexel_cci_research_logo.jpg';
+import bmsLogo from '../assets/logos/BMS.png';
+import developForGoodLogo from '../assets/logos/develop_for_good_logo.jpg';
+import drexelCCILogo from '../assets/logos/drexel_cci.jpg';
+import kbraLogo from '../assets/logos/kbra.jpg';
+import drawsimImage from '../assets/projects/drawsim.jpg';
+import stealthStartup from '../assets/logos/stealth.png'
 
 const Resume = () => {
   return (
@@ -81,6 +82,15 @@ const Resume = () => {
         <h2>experience <span aria-hidden>💼</span></h2>
         <div className="item">
           <div className="content">
+            <h3>co-founder</h3>
+            <p className="subtitle">
+              <a href="https://en.wikipedia.org/wiki/Stealth_startup" target="_blank" rel="noopener noreferrer" className="resume-link">Stealth Startup</a>, April 2026 – Present
+            </p>
+          </div>
+          <img src={stealthStartup} alt="Stealth Startup" className="company-logo-small" loading="lazy" />
+        </div>
+        <div className="item">
+          <div className="content">
             <h3>software engineer intern</h3>
             <p className="subtitle">
               <a href="https://www.kbra.com/" target="_blank" rel="noopener noreferrer" className="resume-link">KBRA</a>, April 2026 – September 2026
@@ -109,7 +119,7 @@ const Resume = () => {
           <div className="content">
             <h3>course assistant</h3>
             <p className="subtitle">
-              Drexel University College of Computing & Informatics, September 2025 -  Present
+              Drexel University College of Computing & Informatics, September 2025 -  March 2026
             </p>
           </div>
           <img src={drexelCCILogo} alt="Drexel CCI" className="company-logo-small" loading="lazy" />

@@ -1,7 +1,7 @@
 import React from 'react';
 import Typewriter from './Typewriter';
 import Navbar from './Navbar';
-import profilePic from '../assets/IMGo_15012.jpg';
+import profilePic from '../assets/profile/IMGo_15012.jpg';
 import '../styles/hero.css';
 
 const Hero = () => {
